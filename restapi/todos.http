@@ -1,0 +1,29 @@
+### POST TODO
+POST http://localhost:3000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiOGI3MjFkZTEwNDQwMzg4ODU0MmZmIn0sImlhdCI6MTY4OTgyNzExMX0.BKDfiY7OWXgsff0RygR1QasKvhNV2QnqOB8DN4whvh4
+Content-Type: application/json
+
+{
+    "name": "Todo-1"
+}
+
+### GET TODO
+GET http://localhost:3000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiOGI3MjFkZTEwNDQwMzg4ODU0MmZmIn0sImlhdCI6MTY4OTgyNzExMX0.BKDfiY7OWXgsff0RygR1QasKvhNV2QnqOB8DN4whvh4
+
+### GET ID TODO 
+GET http://localhost:3000/lists/64b8b76bde10440388854302
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiOGI3MjFkZTEwNDQwMzg4ODU0MmZmIn0sImlhdCI6MTY4OTgyNzExMX0.BKDfiY7OWXgsff0RygR1QasKvhNV2QnqOB8DN4whvh4
+
+### GET LIST
+PATCH http://localhost:3000/lists/64b8b76bde10440388854302
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiOGI3MjFkZTEwNDQwMzg4ODU0MmZmIn0sImlhdCI6MTY4OTgyNzExMX0.BKDfiY7OWXgsff0RygR1QasKvhNV2QnqOB8DN4whvh4
+Content-Type: application/json
+
+{
+    "name": "LIST 1 (updated2)"
+}
+
+### DELETE TODO
+DELETE http://localhost:3000/lists/64b8b76bde10440388854302
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRiOGI3MjFkZTEwNDQwMzg4ODU0MmZmIn0sImlhdCI6MTY4OTgyNzExMX0.BKDfiY7OWXgsff0RygR1QasKvhNV2QnqOB8DN4whvh4
